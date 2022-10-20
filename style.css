@@ -1,7 +1,4 @@
-@font-face {
-	font-family: Inter;
-	src: url("/fonts-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 html {
 	font-family: Inter;
