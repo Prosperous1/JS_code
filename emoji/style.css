@@ -1,0 +1,113 @@
+@font-face {
+	font-family: Inter;
+	src: url("/emoji/fonts/Inter-Regular.ttf");
+}
+
+html {
+	font-family: Inter;
+}
+
+body {
+	text-align: center;
+	margin: 0 auto;
+}
+
+header {
+	height: 231px;
+	background: linear-gradient(92.33deg, #196B78 0.12%, #138496 100%);
+	box-shadow: 0 8px 35px rgba(0, 0, 0, 0.16);
+	margin: 0 auto;
+	text-align: center;
+	padding: 64px 0 0 0;
+}
+
+h1 {
+	font-weight: 700;
+	margin: 0;
+	color: #CCF8FF;
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 21px;
+	color: #CCF8FF;
+	opacity: .7;
+	font-weight: 400;
+	margin-top: 12px;
+}
+
+.search-bar {
+	background: white;
+	width: 550px;
+	height: 21px;
+	font-size: 24px;
+	margin-top: -65px;
+	color: #ABB5BE;
+	padding: 21px 0 21px 32px;
+	transition: .3s;
+	outline: none;
+	box-shadow: 0 8px 45px rgba(0, 0, 0, 0.16);
+}
+
+.search-bar:focus {
+	border-radius: 48px;
+	color: black;
+	outline: 3px solid #138496;
+}
+
+.emojis-list {
+	display: flex;
+	flex-direction: row;
+	margin: 70px auto 0;
+	justify-content: space-between;
+	width: 1040px;
+	flex-wrap: wrap;
+
+}
+
+.item {
+	width: 316px;
+	height: 184px;
+	background: white;
+	margin-top: 40px;
+	border: 1px solid #DEE2E6;
+	border-radius: 12px;
+	box-shadow: 0 3px 35px rgba(0, 0, 0, 0.16);
+	transition: .5s;
+}
+
+.item:hover {
+	box-shadow: 0 8px 35px rgba(0, 0, 0, 0.35);
+}
+
+.emoji {
+	width: 70px;
+	height: 64px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 48px;
+	margin: 24px auto 0;
+
+	color: #68717A;
+}
+
+.emoji-name {
+	text-decoration: underline;
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+	margin: 2px auto 0;
+	line-height: 28px;
+}
+
+.emoji-keywords {
+	width: 268px;
+	text-align: center;
+	font-size: 12px;
+	margin: 12px auto 0;
+}
+
+.focus {
+	border: none;
+}
